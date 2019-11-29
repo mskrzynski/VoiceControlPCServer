@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.mskrzynski.voicecontrolpcserver.VoiceControlPCServer">
+  <grid id="27dc6" binding="VoiceControlPCServer" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="87" y="433" width="802" height="557"/>
+    </constraints>
+    <properties>
+      <autoscrolls value="false"/>
+      <background color="-1"/>
+      <doubleBuffered value="true"/>
+      <minimumSize width="800" height="425"/>
+      <opaque value="false"/>
+      <preferredSize width="800" height="425"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="8b195" class="javax.swing.JLabel" binding="label_phonename">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="5" ipady="5"/>
+        </constraints>
+        <properties>
+          <text value="Nazwa telefonu obsługującego:"/>
+        </properties>
+      </component>
+      <component id="23080" class="javax.swing.JButton" binding="button_export">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Wyeksportuj bazę poleceń do pliku CSV"/>
+        </properties>
+      </component>
+      <component id="34a65" class="javax.swing.JButton" binding="button_import">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Zaimportuj bazę poleceń z pliku CSV"/>
+        </properties>
+      </component>
+      <component id="8276" class="javax.swing.JButton" binding="button_new">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Nowe polecenie"/>
+        </properties>
+      </component>
+      <component id="2aa32" class="javax.swing.JButton" binding="button_edit">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Edytuj polecenie"/>
+        </properties>
+      </component>
+      <component id="ef51d" class="javax.swing.JButton" binding="button_delete">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Usuń polecenie"/>
+        </properties>
+      </component>
+      <component id="89ea6" class="javax.swing.JTextField" binding="ipaddressTXT">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="31f81" class="javax.swing.JTextField" binding="hostnameTXT">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="29b60" class="javax.swing.JTextField" binding="phonenameTXT">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="5e419" class="javax.swing.JTextField" binding="statusTXT">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <opaque value="true"/>
+        </properties>
+      </component>
+      <component id="22548" class="javax.swing.JLabel" binding="label_status">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="10"/>
+        </constraints>
+        <properties>
+          <text value="Status:"/>
+        </properties>
+      </component>
+      <scrollpane id="9af39">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="200"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="76caf" class="javax.swing.JTable" binding="commandsJTable">
+            <constraints/>
+            <properties>
+              <autoCreateRowSorter value="true"/>
+              <columnSelectionAllowed value="true"/>
+              <fillsViewportHeight value="true"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="2d7e4" class="javax.swing.JLabel" binding="label_search">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="5"/>
+        </constraints>
+        <properties>
+          <text value="Wyszukaj wyraz/polecenie:"/>
+        </properties>
+      </component>
+      <component id="f5ab8" class="javax.swing.JTextField" binding="searchTXT">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c3ec4" class="javax.swing.JButton" binding="button_deleteDB">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Usuń całą bazę poleceń"/>
+        </properties>
+      </component>
+      <component id="a5581" class="javax.swing.JTextField" binding="amountTXT">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <opaque value="false"/>
+        </properties>
+      </component>
+      <component id="62b35" class="javax.swing.JTextField" binding="publicIP">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <opaque value="false"/>
+        </properties>
+      </component>
+      <component id="5d697" class="javax.swing.JButton" binding="button_example">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Dodaj przykładowe polecenie"/>
+        </properties>
+      </component>
+      <component id="c70a5" class="javax.swing.JLabel" binding="label_ipaddress">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Adres IP:"/>
+        </properties>
+      </component>
+      <component id="7f425" class="javax.swing.JLabel" binding="label_hostname">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Nazwa komputera:"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
