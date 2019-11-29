@@ -1,7 +1,9 @@
 # VoiceControlPCServer
 
-Send commands to PC/capture screenshots and webcam stills via voice - Java PC Server 
+This project allows you to send commands to PC/capture screenshots and webcam stills via voice.
 
-This is the Server Java application portion of the VoiceControlPC project.
+This is the Server Java application portion of the VoiceControlPC project, that runs in background and waits for commands from clients.
 
-It is designed to compile using IntelliJ IDEA.
+It has a Polish user interface.
+
+It is designed to be compiled only using IntelliJ IDEA.
